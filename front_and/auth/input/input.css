@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ /*color placeholder*/
+::-webkit-input-placeholder {
+    color:    #1D88D4;
+ }
+ :-moz-placeholder {
+    color:    #9dd5fa;
+ }
+ ::-moz-placeholder {
+    color:    #9dd5fa;
+ }
+ :-ms-input-placeholder {
+    color:    #9dd5fa;
+ }
+
+
+ /*focus placeholder*/
+ :focus::-webkit-input-placeholder {
+    color: transparent;
+    outline: none;
+  }
+   
+  :focus::-moz-placeholder {
+    color: transparent;
+    outline: none;
+  }
+   
+  :focus:-moz-placeholder {
+    color: transparent;
+    outline: none;
+  }
+   
+  :focus:-ms-input-placeholder {
+    color: transparent;
+    outline: none;
+  }
+
+
+body 
+{
+    background: #ffffff;
+    height: 100vh;
+}
+
+.parent{
+    height: 100%;
+}
+
+.window{
+    width:40%;
+    height:50%;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 5px 2px #91a9ba;
+}
+
+.input{
+    color: rgb(14, 39, 59);
+    border: 0px;
+    font-size: 30px;
+    height: 50px;
+    width: 80%;
+    background: #ffffff;
+    text-align: center;
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+}
+.line_input{
+margin: 0px;
+background-color: rgb(109, 197, 255);
+width: 60%;
+height: 1px;
+border-radius: 2px;}
+
+.separator{
+  height: 10%;
+}
+
+.separator_top{
+  height: 15%;
+}
+
+.restart_password{
+  color: #1D88D4;
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button_sub{
+  color: #1D88D4;
+  background: #ffffff;
+  height: 35px;
+  width: 25%;
+  outline: none;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: solid 1px #9dd5fa;
+}
+
+.button_sub:hover { 
+  background: #1D88D4;
+  color: #ffffff;
+}
+
+
+/*
+
+  FLEXBOX
+
+  Media Query Extensions:
+   -ns = not-small
+   -m  = medium
+   -l  = large
+
+*/
+
+.flex { display: flex; }
+.inline-flex { display: inline-flex; }
+
+/* 1. Fix for Chrome 44 bug.
+ * https://code.google.com/p/chromium/issues/detail?id=506893 */
+
+.flex-none { flex: none; }
+
+.flex-column  { flex-direction: column; }
+.flex-row     { flex-direction: row; }
+.flex-wrap    { flex-wrap: wrap; }
+.flex-nowrap    { flex-wrap: nowrap; }
+.flex-wrap-reverse    { flex-wrap: wrap-reverse; }
+.flex-column-reverse  { flex-direction: column-reverse; }
+.flex-row-reverse     { flex-direction: row-reverse; }
+
+.items-start    { align-items: flex-start; }
+.items-end      { align-items: flex-end; }
+.items-center   { align-items: center; }
+.items-baseline { align-items: baseline; }
+.items-stretch  { align-items: stretch; }
+
+.self-start    { align-self: flex-start; }
+.self-end      { align-self: flex-end; }
+.self-center   { align-self: center; }
+.self-baseline { align-self: baseline; }
+.self-stretch  { align-self: stretch; }
+
+.justify-start   { justify-content: flex-start; }
+.justify-end     { justify-content: flex-end; }
+.justify-center  { justify-content: center; }
+.justify-between { justify-content: space-between; }
+.justify-around  { justify-content: space-around; }
+
+.content-start   { align-content: flex-start; }
+.content-end     { align-content: flex-end; }
+.content-center  { align-content: center; }
+.content-between { align-content: space-between; }
+.content-around  { align-content: space-around; }
+.content-stretch { align-content: stretch; }
+
+.order-0 { order: 0; }
+.order-1 { order: 1; }
+.order-2 { order: 2; }
+.order-3 { order: 3; }
+.order-4 { order: 4; }
+.order-5 { order: 5; }
+.order-6 { order: 6; }
+.order-7 { order: 7; }
+.order-8 { order: 8; }
+.order-last { order: 99999; }
+

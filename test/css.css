@@ -1,0 +1,10 @@
+.to-be-changed {
+        color: black;
+    }
+
+input[type=checkbox]:checked ~ .to-be-changed {
+
+    color: red;
+
+}
+    
