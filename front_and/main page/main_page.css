@@ -74,7 +74,12 @@ a
 .name
 {
     width: 100%;
-    height: 30px;
+    height: 50px;
+}
+
+.name img 
+{
+    height: 45px;
 }
 
 .panel_top_setting
@@ -116,27 +121,39 @@ a
 
 .panel_cen_funct
 {
-    background-color: rgb(191, 247, 241);
+    background-color: rgb(226, 253, 250);
     width: 100%;
     height: 50px;
     display: flex;
     flex-direction: row;
     border: 1px solid #1D88D4;
     border-top: 0px solid #ffffff;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--text_table_color);
 }
 
 .blok_cen_funct
 {
-   width: 25%;
+   width: 100%;
    height: 100%;
-   margin: 15px;
    font-size: 20px;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.blok_cen_funct_nested
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    margin: 15px;
 }
 
 .panel_cen_funct_logo
 {
     width: 20px;
+    height: 20px;
 }
 
 
@@ -243,6 +260,7 @@ tr:hover td
 {
     height: 20px;
     width: 20px;
+    margin-left: calc(50% - 10px);
 }
 
  /* check_box________________________________________________________________________________ */
