@@ -7,7 +7,6 @@
 
 body 
 {
-    background: #CBE8FC;
     height: 100vh;
 }
 
@@ -17,19 +16,18 @@ body
 
 .window{
     width:50%;
-    height:70%;
+    height:50%;
     background: rgb(255, 255, 255);
-    border-radius: 50px;
+    box-shadow: 0 0 5px 2px #91a9ba;
 }
 
 .input{
-    color: rgb(255, 255, 255);
+    color: rgb(36, 32, 32);
     border: 0px;
     font-size: 30px;
     height: 50px;
     width: 100%;
-    background: #1D88D4;
-    border-radius: 20px;
+    border-bottom: 1px solid #1D88D4;
     text-align: center;
     outline: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -54,10 +52,16 @@ body
   background: #1D88D4;
   height: 35px;
   width: 25%;
-  border-radius: 10px;
   outline: none;
   font-size: 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: 1px solid #1D88D4;
+}
+
+.button_sub:hover
+{
+  color: #1D88D4;
+  background: rgb(255, 255, 255);
 }
 
 .laible{
