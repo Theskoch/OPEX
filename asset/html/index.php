@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,6 +9,7 @@
     <header class="header">
     <h1>shapka_holodec</h1>
 </header>
+    русский где ???? так вот же он:)
     <h4><a href="./input.php">input</a></h4>
     <h4><a href="./register.php">register</a></h4>
     <h4><a href="./main_page.php">main_page</a></h4>

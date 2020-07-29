@@ -1,4 +1,4 @@
-
+﻿
 
 let project_folder = "asset";
 let source_folder = "client";
@@ -44,6 +44,8 @@ let { src, dest } = require('gulp'),
     imagemin = require("gulp-imagemin"),
     ttf2woff = require("gulp-ttf2woff"),
     ttf2woff2 = require("gulp-ttf2woff2");
+    convert_encoding = require("gulp-convert-encoding");
+    bom = require('gulp-bom');
 
 
 function browserSync(params) {
@@ -68,6 +70,8 @@ function html() {
 function php() {
     return src(path.src.php)
         .pipe(fileinclude())
+        .pipe(convert_encoding({to: 'utf8'}))
+        .pipe(bom())
         .pipe(dest(path.build.php))
         .pipe(browsersync.stream())
 }

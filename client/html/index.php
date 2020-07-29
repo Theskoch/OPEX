@@ -7,7 +7,7 @@
 </head>
 <body>
     @@include('_header.html')
-    русский где ????
+    русский где ???? так вот же он:)
     <h4><a href="./input.php">input</a></h4>
     <h4><a href="./register.php">register</a></h4>
     <h4><a href="./main_page.php">main_page</a></h4>
