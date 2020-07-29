@@ -1,3 +1,5 @@
+@import './var.scss';
+
 
 body 
 {
@@ -55,7 +57,7 @@ a
     padding-top: 5px;
     height: 40px;
     width: 300px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: $fonts;
     font-size: 20px;
 }
 
@@ -90,7 +92,7 @@ a
     width: 100%;
     height: 200px;
     padding: 5px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: $fonts;
     border: 1px solid #1D88D4;
 }
 
@@ -129,8 +131,8 @@ a
     border: 1px solid #1D88D4;
     border-top: 0px solid #ffffff;
     font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: var(--text_table_color);
+    font-family: $fonts;
+    color: $text_table_color;
 }
 
 .blok_cen_funct
@@ -138,11 +140,12 @@ a
    width: 100%;
    height: 100%;
    font-size: 20px;
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-family: $fonts;
 }
 
 .blok_cen_funct_nested
 {
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -180,9 +183,10 @@ tr
 
 td, th
 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: var(--text_table_color);
-    border-bottom: 1px solid var(--main_color);
+    box-sizing: border-box;
+    font-family: $fonts;
+    color: $text_table_color;
+    border-bottom: 1px solid $main_color;
     padding: 10px 15px;
 }
 
@@ -203,7 +207,7 @@ tr:hover td
 
 
 .input{
-    color: var(--main_color);
+    color: $main_color;
     border-width: 1px;
     border: 1px solid #1D88D4;
     font-size: 20px;
@@ -213,7 +217,7 @@ tr:hover td
     border-radius: 0px;
     text-align: center;
     outline: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: $fonts;
     padding-right: 3px;
 }
 
@@ -226,7 +230,7 @@ tr:hover td
     border-radius: 7px;
     outline: none;
     font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: $fonts;
     border-width: 1px;
   }
 

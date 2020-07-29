@@ -1,31 +1,29 @@
 <!DOCTYPE html>
 <html>
  <head>
-  
   <meta charset="utf-8">
   <title>OPEX</title>
-  <link rel="stylesheet" href="main_page.css">
-  <link rel="stylesheet" href="var.css">
+  <link rel="stylesheet" href="../css/main_page.css">
+  <link rel="stylesheet" href="../css/var.css">
 
-  <script src="main_page.js"></script>
+  <script src="../js/main_page.js"></script>
  </head>
  <body>
-    
     <div class="left_panel" id="left_panel">
         
-        <img src="img/mars_logo.jpg" alt="" class="mars_logo" onclick="sleep_left_panel()">
+        <img src="../img/main_page/mars_logo.jpg" alt="" class="mars_logo" onclick="sleep_left_panel()">
 
-        <a href=""><div class="block"> <div><img src="img/track_buy.png" alt="" class="logo_left_panel"></div> <div class="left_panel_text" id="track_buy_id_elem">Трекер закупок</div></div></a>
-        <a href=""><div class="block"> <div><img src="img/hranenie.png" alt="" class="logo_left_panel"></div> <div class="left_panel_text" id="work_sklad">Работа со складом</div></div></a>
+        <a href=""><div class="block"> <div><img src="../img/main_page/track_buy.png" alt="" class="logo_left_panel"></div> <div class="left_panel_text" id="track_buy_id_elem">Трекер закупок</div></div></a>
+        <a href=""><div class="block"> <div><img src="../img/main_page/hranenie.png" alt="" class="logo_left_panel"></div> <div class="left_panel_text" id="work_sklad">Работа со складом</div></div></a>
 
-        <a href=""><div class="block"> <div><img src="img/book.png" alt="" class="logo_left_panel"></div> <div class="left_panel_text" id="bibl">Справочники</div></div></a>
-        <a href=""><div class="block"> <div><img src="img/otch.png" alt="" class="logo_left_panel"></div> <div class="left_panel_text" id="otch">Отчеты</div></div></a>
+        <a href=""><div class="block"> <div><img src="../img/main_page/book.png" alt="" class="logo_left_panel"></div> <div class="left_panel_text" id="bibl">Справочники</div></div></a>
+        <a href=""><div class="block"> <div><img src="../img/main_page/otch.png" alt="" class="logo_left_panel"></div> <div class="left_panel_text" id="otch">Отчеты</div></div></a>
     </div>
 
     <div class="work_zone">
 
         <div class="name">
-            <img src="img/treck_buy_name.png" alt="" class="">
+            <img src="../img/main_page/treck_buy_name.png" alt="" class="">
         </div>
 
         <div class="panel_top_setting">
@@ -112,17 +110,15 @@
         <div class="panel_cen_funct">
 
             <div class="blok_cen_funct_nested">Строки заказа</div>
-            <a href="">
                 <div class="blok_cen_funct_nested">
 
-                <img src="img/add.png" alt="" class="panel_cen_funct_logo">
-                 Добавить
+                <img src="../img/main_page/add.png" alt="" class="panel_cen_funct_logo">
+                <a href=""> Добавить</a>
             
                 </div>
-            </a>
 
-            <div class="blok_cen_funct_nested"><a href=""><img src="img/new_add.png" alt="" class="panel_cen_funct_logo">Добавить копированием</a></div>
-            <div class="blok_cen_funct_nested"><a href=""><img src="img/delete.png" alt="" class="panel_cen_funct_logo">Удалить</a></div>
+            <div class="blok_cen_funct_nested"><a href=""><img src="../img/main_page/new_add.png" alt="" class="panel_cen_funct_logo">Добавить копированием</a></div>
+            <div class="blok_cen_funct_nested"><a href=""><img src="../img/main_page/delete.png" alt="" class="panel_cen_funct_logo">Удалить</a></div>
 
         </div>
 
